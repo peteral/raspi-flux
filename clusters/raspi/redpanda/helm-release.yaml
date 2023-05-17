@@ -13,3 +13,6 @@ spec:
         kind: HelmRepository
         name: redpanda
   interval: 1m0s
+  dependsOn:
+    - name: cert-manager
+      namespace: cert-manager
