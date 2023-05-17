@@ -13,4 +13,8 @@ spec:
         kind: HelmRepository
         name: jetstack
   interval: 1m0s
+  install:
+    disableWait: true
+  upgrade:
+    disableWait: true
 
