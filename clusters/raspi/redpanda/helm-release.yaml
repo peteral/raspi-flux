@@ -1,0 +1,16 @@
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: redpanda
+  namespace: redpanda
+spec:
+  chart:
+    spec:
+      chart: redpanda
+      reconcileStrategy: ChartVersion
+      sourceRef:
+        kind: HelmRepository
+        name: redpanda
+  interval: 1m0s
+
