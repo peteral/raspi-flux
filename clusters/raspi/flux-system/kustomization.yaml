@@ -6,3 +6,4 @@ resources:
 - ../cert-manager
 - ../ingress-nginx
 - ../redpanda
+- ../sealed-secrets
