@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
-- ../cert-manager
-- ../ingress-nginx
-- ../redpanda
-- ../sealed-secrets
+# - ../cert-manager
+# - ../ingress-nginx
+# - ../redpanda
+# - ../sealed-secrets
