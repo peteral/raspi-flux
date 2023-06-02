@@ -16,6 +16,8 @@ spec:
   values:
     statefulset:
       replicas: 1
+    console:
+      enabled: false
   dependsOn:
     - name: cert-manager
       namespace: cert-manager
